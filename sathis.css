@@ -6,7 +6,7 @@ body{
 }
 
 .page1{
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.dnHJ-8I7bqyEg7Mn7pSczgHaEK&pid=Api&P=0&h=180");
+    background: url("https://tse3.mm.bing.net/th?id=OIP.dnHJ-8I7bqyEg7Mn7pSczgHaEK&pid=Api&P=0&h=180");
     background-size: cover;
     background-position: center;
     width: 100vw;
