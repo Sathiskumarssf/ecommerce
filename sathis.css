@@ -6,7 +6,7 @@ body{
 }
 
 .page1{
-    background: url("https://tse3.mm.bing.net/th?id=OIP.dnHJ-8I7bqyEg7Mn7pSczgHaEK&pid=Api&P=0&h=180");
+    background: url("https://ak3.picdn.net/shutterstock/videos/8738563/thumb/4.jpg");
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -29,9 +29,13 @@ h3{
     align-items: center;
     margin: 0% 0;
 }
+.img{
+    width: 15%;height: 15%; position: absolute; margin-right: 10px;
+}
+
 .head{
     width: 100vw;
-    background-color: rgb(87, 129, 142);
+    background-color: rgb(84, 105, 111);
     padding: 1.1% 0 ;
     
 }
@@ -93,6 +97,10 @@ p{
     color: rgb(210, 201, 201);
     padding-top: 0 8px;
 
+}
+.summary{
+    color: rgb(172, 190, 125); width: 50%;margin-top: 24%;padding-left: 2%;
+    font-size: 24px;
 }
 
 ul{
@@ -166,14 +174,42 @@ button{
     .page1{
         width: 45%;
     }
+    .last-div{
+        width: 100vw;
+    }
+
+    .table1{
+        width: 50%;
+    }
 }
 @media(max-width:750px){
     .content{
-        width: 100%;
+        width: 80%;
     }
     .page1{
         width: 100%;
     }
+    .last-div{
+        width: 85vw;
+    }
+
+    .table1{
+        width: 50%;
+        font-size: 15px;
+    }
+  .about li{
+    font-size: 10px;
+  }
+   .img{
+    width: 15%;
+    height: 10%;
+   }
+   .summary{
+    font-size: 20px;
+   width: 80%;
+   margin-top: 80%;
+   }
 }
+
 
 
