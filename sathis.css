@@ -12,6 +12,9 @@ body{
     width: 100vw;
     height: 100vh;
 }
+*{
+    text-decoration: none;
+}
 
 
 h3{
@@ -83,24 +86,38 @@ h3{
 }
 
 img{
-    width: 50%;
+    width: 40%;
     height: 50%;
     text-align: center;
     margin: 0 auto;
     border-radius: 10px;
     display: block;
+    
+ 
+}
+
+.imag{
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+    margin-top: -13%;
+    margin-left: 75%;
  
 }
 
 p{
     text-align: center;
-    color: rgb(210, 201, 201);
+    color: rgb(96, 74, 74);
     padding-top: 0 8px;
 
 }
 .summary{
-    color: rgb(172, 190, 125); width: 50%;margin-top: 24%;padding-left: 2%;
+    color: rgb(172, 190, 125); width: 40%;margin-top: 0%;padding-left: 2%;
     font-size: 24px;
+    margin-top: -10%;
 }
 
 ul{
@@ -150,15 +167,39 @@ button{
     width: 100vw;
     height: 40vh;
     background-color: rgb(65, 80, 94);
+    border-radius: 10px;
 }
 
+.items-about{
+    padding: 1% 4%;color: rgb(7, 9, 52);font-size: 40px;
+}
+.items-about1{
+    padding-left: 30PX;font-size: 31px;
+    margin-left: 10px;
+}
 
+.img1{
+    position: absolute; width: 20%;height: 20%;margin-left: 60%; margin-top: -10%;
+
+}
 
 .table1{
-    width: 50%;
+    width: 70%;
    padding: 30px;
    font-size: 20px;
-   position: relative;
+   position: relative;text-align: center;
+}
+.div1{
+    width: 40%;
+    height: 50%;
+    border: 3px solid red ;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background: url("https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150_640.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: antiquewhite;
 }
 
 .table1 td{
@@ -171,9 +212,7 @@ button{
     .content{
         width: 45%;
     }
-    .page1{
-        width: 45%;
-    }
+    
     .last-div{
         width: 100vw;
     }
@@ -186,6 +225,9 @@ button{
     .content{
         width: 80%;
     }
+    .head{
+        width: 100%;
+    }
     .page1{
         width: 100%;
     }
@@ -194,11 +236,12 @@ button{
     }
 
     .table1{
-        width: 50%;
-        font-size: 15px;
+        width: 70%;
+        font-size: 12px;
     }
   .about li{
     font-size: 10px;
+   margin-left: 5%;
   }
    .img{
     width: 15%;
@@ -206,9 +249,23 @@ button{
    }
    .summary{
     font-size: 20px;
-   width: 80%;
-   margin-top: 80%;
+   width: 40%;
+   margin-top: -65%;
    }
+   .items-about{
+    font-size: 30px;
+   }
+   .items-about1{
+    font-size: 20px;
+   }
+   .imag{
+    width: 20%;
+    height: 20%;
+    margin-top: -8%;
+    margin-left: 40%;
+   
+   }
+
 }
 
 
